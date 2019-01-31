@@ -2,7 +2,6 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
 }
 
 h1 {
@@ -10,14 +9,25 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
+  color:#144d53;
+
 }
 
 h2 {
   font-family: 'Lora', serif;
+  font-size: 2rem;
+  color:#144d53;
 }
 
 h3 {
   font-family: 'Lora', serif;
+  color: #518C85;
+}
+a {
+  color: #518C85;
+}
+.subtitle {
+  font-weight: normal;
 }
 .skill-img {
   width:10%;
