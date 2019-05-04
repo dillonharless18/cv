@@ -3,7 +3,9 @@ html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -45,21 +47,23 @@ hr {
   border-top: 6px dotted black;
   border-color: #c6cbef;
 }
+
 .invisible {
   visibility: hidden;
 }
+
 .navbar-light .navbar-brand {
-    color:#494ca2!important;
+  color: #494ca2 !important;
 }
 
 .bg-light {
-  background-color: #abecfe!important;
-
+  background-color: #abecfe !important;
 }
 
 .navbar-brand:hover {
-    color:#fff;
+  color: #fff;
 }
+
 #welcome-section {
   padding: 5% 10%;
 }
@@ -83,7 +87,7 @@ hr {
 }
 
 .what-i-can-do {
-  color: #494ca2;
+  color: #e3e7f1;
 }
 
 .subtitle {
@@ -104,13 +108,9 @@ hr {
   z-index: -1; */
 /* } */
 .ocean {
-  /* Set rules to fill background */
   min-height: 100%;
-  min-width: 1024px;
-  /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-  /* Set up positioning */
   position: absolute;
   top: 0;
   left: 0;
@@ -249,4 +249,92 @@ hr {
   position: absolute;
   left: 300px;
   right: 300px;
+}
+
+@media screen and (max-width:1100px) {
+  h1{
+    font-size: 4rem;
+  }
+  .what-i-can-do {
+    margin-top: 29%;
+  }
+  /* .skills{
+    padding: 0;
+  } */
+  .skill-row {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:969px) {
+  h1{
+    font-size: 4rem;
+  }
+  .what-i-can-do {
+    margin-top: 40%;
+  }
+  /* .skills{
+    padding: 0;
+  } */
+  .skill-row {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:720px) {
+  h1{
+    font-size: 4rem;
+  }
+  .what-i-can-do {
+    margin-top: 43%;
+  }
+  /* .skills{
+    padding: 0;
+  } */
+  .skill-row {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:460px) {
+  h1{
+    font-size: 4rem;
+  }
+  .what-i-can-do {
+    margin-top: 60%;
+  }
+  /* .skills{
+    padding: 0;
+  } */
+  .skill-row {
+    width: 70%;
+  }
+}
+@media screen and (max-width:410px) {
+  h1{
+    font-size: 4rem;
+  }
+  .what-i-can-do {
+    margin-top: 80%;
+  }
+  /* .skills{
+    padding: 0;
+  } */
+  .skill-row {
+    width: 70%;
+  }
+}
+@media screen and (max-width:361px) {
+  h1{
+    font-size: 4rem;
+  }
+  .what-i-can-do {
+    margin-top: 80%;
+  }
+  /* .skills{
+    padding: 0;
+  } */
+  .skill-row {
+    width: 70%;
+  }
 }
